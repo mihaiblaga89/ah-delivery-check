@@ -1,0 +1,24 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "airbnb-base",
+        "prettier",
+        "prettier/react"
+    ],
+    "plugins": [
+        "prettier",
+        "jest"
+    ],
+    "rules": {
+        "prettier/prettier": "error",
+        "max-len": [
+            "warn",
+            180
+        ],
+        "no-nested-ternary": "off"
+    },
+    "env": {
+        "node": true,
+        "jest": true
+    }
+}
