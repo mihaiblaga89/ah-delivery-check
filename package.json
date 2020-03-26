@@ -1,61 +1,61 @@
 {
-    "name": "@mihaiblaga89/ah-delivery",
-    "version": "0.0.3",
-    "description": "Checks AH delivery slots by postcode",
-    "main": "dist/index.js",
-    "author": {
-        "name": "Mihai Blaga",
-        "email": "mihaiblaga89@gmail.com",
-        "url": "https://mihaiblaga.dev/"
-    },
-    "license": "MIT",
-    "scripts": {
-        "dev": "nodemon --exec babel-node src/index.js",
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
-        "build": "babel src -d dist",
-        "serve": "node dist/index.js",
-        "test": "jest"
-    },
-    "bin": {
-        "ahdl": "./dist/index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mihaiblaga89/ah-delivery-check.git"
-    },
-    "devDependencies": {
-        "@babel/cli": "^7.6.4",
-        "@babel/core": "^7.6.4",
-        "@babel/node": "^7.6.3",
-        "@babel/plugin-proposal-class-properties": "^7.5.5",
-        "@babel/plugin-transform-runtime": "^7.6.2",
-        "@babel/preset-env": "^7.6.3",
-        "babel-eslint": "^10.0.3",
-        "babel-plugin-module-resolver": "^3.2.0",
-        "eslint": "^6.5.1",
-        "eslint-config-airbnb-base": "^14.0.0",
-        "eslint-config-prettier": "^6.4.0",
-        "eslint-import-resolver-babel-module": "^5.1.0",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-jest": "^23.8.2",
-        "eslint-plugin-prettier": "^3.1.1",
-        "husky": "^3.0.9",
-        "jest": "^25.1.0",
-        "nodemon": "^1.19.4",
-        "prettier": "^1.18.2",
-        "pretty-quick": "^2.0.1",
-        "rimraf": "^3.0.0"
-    },
-    "dependencies": {
-        "@babel/runtime": "^7.6.3",
-        "axios": "^0.19.2",
-        "commander": "^5.0.0",
-        "table": "^5.4.6"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged"
-        }
+  "name": "@mihaiblaga89/ah-delivery",
+  "version": "0.1.0",
+  "description": "Checks AH delivery slots by postcode",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Mihai Blaga",
+    "email": "mihaiblaga89@gmail.com",
+    "url": "https://mihaiblaga.dev/"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "babel src -d dist",
+    "serve": "node dist/index.js",
+    "test": "jest"
+  },
+  "bin": {
+    "ahdl": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihaiblaga89/ah-delivery-check.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-import-resolver-babel-module": "^5.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "jest": "^25.1.0",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.1",
+    "rimraf": "^3.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.3",
+    "axios": "^0.19.2",
+    "commander": "^5.0.0",
+    "table": "^5.4.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
     }
+  }
 }
