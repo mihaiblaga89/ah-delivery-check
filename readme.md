@@ -1,7 +1,8 @@
-Checks AH delivery slots by postcode.
+Checks AH delivery slots by postcode, in this time of need, without having to access AH's website and scroll the calendar.
 
-`npm install -g @mihaiblaga89/ah-delivery`
-
+`npm install -g @mihaiblaga89/ah-delivery` 
 `ahdl check <postcode>`
 
-Disclaimer: I have hunch that AH might thake other things into consideration like your cookie and the logged in user (if you are logged in) so you _might_ not see the available slots presented by `ahdl` when you open the website. But I'm still investigating this and if that's the case, I'll add support for it in a later version. For now the website shows the same data as this script, in my case.
+or `npx @mihaiblaga89/ah-delivery check <postcode>`
+
+Will add cronjob support later
