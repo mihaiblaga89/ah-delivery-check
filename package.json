@@ -1,6 +1,6 @@
 {
   "name": "@mihaiblaga89/ah-delivery",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Checks AH delivery slots by postcode",
   "main": "dist/index.js",
   "author": {
