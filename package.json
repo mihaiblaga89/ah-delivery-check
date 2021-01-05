@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.6.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "commander": "^5.0.0",
     "moment": "^2.24.0",
     "table": "^5.4.6"
